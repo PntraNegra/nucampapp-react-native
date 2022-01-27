@@ -12,6 +12,7 @@ import { Icon } from 'react-native-elements';
 import SafeAreaView from 'react-native-safe-area-view';
 import { connect } from 'react-redux';
 import { fetchCampsites, fetchComments, fetchPromotions, fetchPartners } from '../redux/ActionCreators';
+import Constants from 'expo-constants';
 
 const mapDispatchToProps = {
     fetchCampsites,
